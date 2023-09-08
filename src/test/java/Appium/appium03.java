@@ -11,7 +11,7 @@ import java.net.URL;
 
 import static org.testng.AssertJUnit.assertTrue;
 
-public class Appium02 {
+public class appium03 {
     @Test
     public void test() throws MalformedURLException, InterruptedException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
