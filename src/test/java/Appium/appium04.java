@@ -45,5 +45,7 @@ capabilities.setCapability("noReset","true");
 
         MobileElement gestureName = driver.findElementById("com.davemac327.gesture.tool:id/gesture_name");
         gestureName.click();
+
+        driver.closeApp();
     }
 }

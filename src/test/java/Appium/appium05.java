@@ -27,7 +27,9 @@ public class appium05 {
         capabilities.setCapability("noReset", "true");
 
         AndroidDriver<MobileElement> driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-
+        if (driver.isDeviceLocked()){
+            driver.unlockDevice();
+        }
         System.out.println("app yuklendi");
 
 
@@ -75,5 +77,7 @@ public class appium05 {
 
         //
         //
+
+        driver.closeApp();
     }
 }
