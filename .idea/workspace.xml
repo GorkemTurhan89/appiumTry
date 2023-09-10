@@ -25,57 +25,27 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/java/javademos/AppiumTechpro1/src/Apps",
+    "settings.editor.selected.configurable": "copyright"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\java\javademos\AppiumTechpro1\src\Apps" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\java\javademos\AppiumTechpro1\src\test\java\Appium" />
       <recent name="C:\java\javademos\AppiumTechpro1\src\Apps" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Appium" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.appium10.test">
-    <configuration name="appium03" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AppiumTechpro1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Appium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Appium" />
-      <option name="MAIN_CLASS_NAME" value="Appium.appium03" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="appium05.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AppiumTechpro1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Appium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Appium" />
-      <option name="MAIN_CLASS_NAME" value="Appium.appium05" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.appium11">
     <configuration name="appium06" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumTechpro1" />
       <extension name="coverage">
@@ -110,6 +80,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="appium10" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumTechpro1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Appium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Appium" />
+      <option name="MAIN_CLASS_NAME" value="Appium.appium10" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="appium10.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumTechpro1" />
       <extension name="coverage">
@@ -128,13 +115,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="appium11" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumTechpro1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Appium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Appium" />
+      <option name="MAIN_CLASS_NAME" value="Appium.appium11" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.appium11" />
+        <item itemvalue="TestNG.appium10" />
         <item itemvalue="TestNG.appium10.test" />
         <item itemvalue="TestNG.appium09UiSelector" />
         <item itemvalue="TestNG.appium06" />
-        <item itemvalue="TestNG.appium05.test" />
-        <item itemvalue="TestNG.appium03" />
       </list>
     </recent_temporary>
   </component>

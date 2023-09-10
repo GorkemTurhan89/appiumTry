@@ -13,7 +13,7 @@ import java.net.URL;
 import static org.testng.AssertJUnit.assertEquals;
 import static org.testng.AssertJUnit.assertTrue;
 
-public class appium10 {
+public class appium11 {
     @Test
     public void test() throws MalformedURLException, InterruptedException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -47,8 +47,18 @@ public class appium10 {
         preferences3.click();
         System.out.println("prep3 clicked");
 
-        MobileElement wifiCheckBox = driver.findElementByXPath("//android.widget.CheckBox[@resource-id='android:id/checkbox']");
-        wifiCheckBox.click();
+
+        MobileElement  wifiCheckBox = driver.findElementByXPath("//android.widget.CheckBox[@resource-id='android:id/checkbox']");
+        String isItTrue = driver.findElementByAndroidUIAutomator("UiSelector().resourceId(\"android:id/checkbox\").checkable(true)").getAttribute("checked");
+        if(isItTrue.contains("true")){
+            System.out.println("Already checked");
+        }else if(isItTrue.contains("false")){
+            wifiCheckBox.click();
+            System.out.println("Wifi checkbox checked");
+
+        }
+
+
         System.out.println("Wifi checkbox checked");
 
         Thread.sleep(3000);
