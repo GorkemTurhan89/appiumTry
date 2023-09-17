@@ -29,7 +29,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/java/javademos/AppiumTechpro1/src/Apps&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/java/javademos/testng-appium-app-browserstack-sdk&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
 }</component>
@@ -41,12 +41,15 @@
       <recent name="C:\java\javademos\AppiumTechpro1\src\test\java\Appium" />
       <recent name="C:\java\javademos\AppiumTechpro1\src\Apps" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Appium" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Appium" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.appium00N11.test">
-    <configuration name="AppiumGorkemTry" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Appium13BrowserStackCalculator.browserStackAndroid">
+    <configuration name="Appium12BrowserStackAndroid" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumTechpro1" />
       <extension name="coverage">
         <pattern>
@@ -55,7 +58,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Appium" />
-      <option name="MAIN_CLASS_NAME" value="Appium.AppiumGorkemTry" />
+      <option name="MAIN_CLASS_NAME" value="Appium.Appium12BrowserStackAndroid" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -63,7 +66,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppiumGorkemTry.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Appium12BrowserStackAndroid.browserStackAndroid" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumTechpro1" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +75,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Appium" />
-      <option name="MAIN_CLASS_NAME" value="Appium.AppiumGorkemTry" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="Appium.Appium12BrowserStackAndroid" />
+      <option name="METHOD_NAME" value="browserStackAndroid" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,11 +84,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="appium00N11" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Appium13BrowserStackCalculator" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumTechpro1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="appium00N11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Appium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Appium" />
+      <option name="MAIN_CLASS_NAME" value="Appium.Appium13BrowserStackCalculator" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Appium13BrowserStackCalculator.browserStackAndroid" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumTechpro1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Appium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Appium" />
+      <option name="MAIN_CLASS_NAME" value="Appium.Appium13BrowserStackCalculator" />
+      <option name="METHOD_NAME" value="browserStackAndroid" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -104,30 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="appium06" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AppiumTechpro1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Appium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Appium" />
-      <option name="MAIN_CLASS_NAME" value="Appium.appium06" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Appium13BrowserStackCalculator.browserStackAndroid" />
+        <item itemvalue="TestNG.Appium13BrowserStackCalculator" />
+        <item itemvalue="TestNG.Appium12BrowserStackAndroid.browserStackAndroid" />
+        <item itemvalue="TestNG.Appium12BrowserStackAndroid" />
         <item itemvalue="TestNG.appium00N11.test" />
-        <item itemvalue="TestNG.appium00N11" />
-        <item itemvalue="TestNG.AppiumGorkemTry" />
-        <item itemvalue="TestNG.AppiumGorkemTry.test" />
-        <item itemvalue="TestNG.appium06" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +156,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Appium/appium06.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/Appium/appium06chrome.java</url>
           <line>16</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

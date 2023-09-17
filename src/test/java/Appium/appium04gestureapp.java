@@ -4,7 +4,6 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
@@ -12,7 +11,7 @@ import java.net.URL;
 
 import static org.testng.AssertJUnit.assertTrue;
 
-public class appium03 {
+public class appium04gestureapp {
     @Test
     public void test() throws MalformedURLException, InterruptedException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -39,15 +38,13 @@ capabilities.setCapability("noReset","true");
 
         System.out.println("Home pagee openned");
 
-        MobileElement testButton = driver.findElementByXPath("//android.widget.Button[@text='Test']");
-        testButton.click();
+        MobileElement addButton = driver.findElementById("com.davemac327.gesture.tool:id/addButton");
+        addButton.click();
+        Thread.sleep(2000);
 
-        System.out.println("Test button works");
+        MobileElement gestureName = driver.findElementById("com.davemac327.gesture.tool:id/gesture_name");
+        gestureName.click();
 
-
-        MobileElement testAGestureTitle = driver.findElementById("android:id/title");
-        Assert.assertTrue(testAGestureTitle.isDisplayed());
-        System.out.println("test screen acildi...");
         driver.closeApp();
     }
 }
